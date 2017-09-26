@@ -1,0 +1,16 @@
+
+<script src="./longpress.js"></script>
+<button id="test">click</button>
+<script>
+
+var el = document.getElementById("test");
+new LongPress(el, {
+    interval: 1000,
+    onProgress: function (percent) {
+        console.log(percent)
+    },
+    onComplete: function () {
+        console.log("complete");
+    }
+});
+</script>
