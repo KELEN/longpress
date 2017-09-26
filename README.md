@@ -1,3 +1,5 @@
+#### 使用方法
+
 ```javascript
 var el = document.getElementById("test");
 new LongPress(el, {
